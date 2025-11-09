@@ -10,7 +10,7 @@ public class JumpStatementsLect16 {
 //        Using Break it breaks the loop and rest of iteration will not execute if condition matches
         for (int i = 0; i < num; i++) {
             if (i == 3) {
-                System.out.println("Wre Breaked Something");
+                System.out.println("We Breaked Something");
                 break;
             }
             System.out.print(i  + " ");

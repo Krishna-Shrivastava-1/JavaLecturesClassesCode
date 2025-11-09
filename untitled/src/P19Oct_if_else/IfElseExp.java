@@ -1,6 +1,4 @@
-package Lec19Oct_if_else;
-
-import java.util.Scanner;
+package P19Oct_if_else;
 
 public class IfElseExp {
     public static void main(String[] args) {

@@ -1,10 +1,11 @@
+package Lect_28_HashMap;
+
 public class hashmap {
-    public static void main(String[] args) {
-/*
+    /*
 HashMap
 It is a non-linear data structure like Tree,Graph etc, and it is inside the collection framework.
 It uses hashing technique.
-Hashing is a technique to convert a large string into a small string.
+
 Hashing Techniques are:
 1) one to one mapping
 2) many to one mapping
@@ -25,7 +26,7 @@ but here is an problem that is the collision
 Collision: when two keys are mapped to the same index then it is called collision.
 like if we have key 27 and 57 then both will be mapped to index 7
 
- 
+
  Also why we are doing we doing it to reduce searching time from O(n) or O(logn) to O(1) that's why we use hashmap to reduce searching time.
 
 Hash function types generally used in hashmap are three types:
@@ -84,7 +85,6 @@ if we collide then we do h(x) = (h(x) + i*i OR i square) % 10 or array size; whe
  like h1(x) = x % size of array;
  h2(x) = prime number - (x % prime number); like prime number we can take 7 or anything
  if we collide then we do h(x) = (h1(x) + i * h2(x)) % size of array; where i = 0,1,2,3...
- this is a good aapproach to avoid clustering.
+ this is a good approach to avoid clustering.
 */
-    }
 }

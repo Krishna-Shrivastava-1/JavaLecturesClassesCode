@@ -20,15 +20,12 @@ Ex -2 : [8,5,7,1,2]
 Suffix Sum Array : [23,15,10,3,2]
 Now to find the sum from index 1 to 3
 we do suffixSum[1] - suffixSum[4] = 15 - 2 = 13
-So General formula for this is if we assume right +1 - left because right is also contain in ans so we have to add right +1.
+So General formula for this is if we assume right + 1 - left because right is also contain in ans so we have to add right +1.
 suffix[i-1] = nums[n-1]
 for(int i = n-2; i >=0; i--){
     suffix[i] = suffix[i+1] + nums[i];
 }
+
         */
-
-       public static void main(String[] args){
-
-       }
     }
 }

@@ -25,6 +25,7 @@ suffix[i-1] = nums[n-1]
 for(int i = n-2; i >=0; i--){
     suffix[i] = suffix[i+1] + nums[i];
 }
+    This technique can be used for multiplication perpective as well
 
         */
     }
